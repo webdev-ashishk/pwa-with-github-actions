@@ -1,0 +1,10 @@
+name: hell-bhai
+on: push
+jobs: 
+ my-job:
+  run-on: ubuntu-latest
+  steps: 
+   - name: my-step
+    run: echo "hellooo " 
+
+
